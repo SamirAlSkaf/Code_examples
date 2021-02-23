@@ -1,5 +1,5 @@
 ## Bachelorarbeit
-Die Arbeit besteht aus einer Simulation in Unity 3D, in welcher ein Machine-Learning Agent darauf trainiert wurde einen medizinischen Eingriff durchzuführen. Genauer befindet sich eine funktionale Nachbildung eines Endoskops innerhalb eines menschlichen Magens, wobei der ML-Agent das Endoskop steuert um einen Fremdkörper im Magen zu greifen.
+Die Arbeit besteht aus einer Simulation in Unity 3D, in welcher ein Machine-Learning Agent darauf trainiert wurde einen medizinischen Eingriff durchzuführen. Genauer gesagt befindet sich eine funktionale Nachbildung eines Endoskops innerhalb eines menschlichen Magens, wobei der ML-Agent das Endoskop steuert, um einen Fremdkörper im Magen zu greifen.
 [![](https://github.com/SamirAlSkaf/Code_examples/blob/main/Bachelorarbeit%20-%20Unity%203D%20-%20Grabing%20Task/Markdown_png.png)](http://https://github.com/SamirAlSkaf/Code_examples/tree/main/Bachelorarbeit%20-%20Unity%203D%20-%20Grabing%20Task)
 
 ## Projektstudium
