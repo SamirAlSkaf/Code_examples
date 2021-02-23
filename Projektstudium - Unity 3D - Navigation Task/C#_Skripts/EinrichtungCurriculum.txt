@@ -1,0 +1,18 @@
+				ANLEITUNG 
+         1. Ordner 'Curriculum' in config/curricula/ erstellen
+         2. .json Datei erstellen mit selbem Namen wie Brain im Editor
+         3. in Json einfügen:
+         {
+            "measure": "progress",
+            "thresholds": [0.1,0.2],
+            "min_lesson_length": 0,
+            "signal_smoothing": true,
+            "parameters": 
+            {
+              "Spawn": [0, 1, 2]            //Hochzählern des Index(je nachdem wieviele Spawns)
+            }
+        }
+
+        4. Im editor -> Academy-> Inspector-> Reset Parameters: add new: "Spawn" mit 0 
+        5. Im editor -> Academy-> Inspector-> MaxSteps wählen
+        6. mlagents-learn config/trainer_config.yaml --curriculum=config/curricula/Curriculum/ --run-id=GenDrei --train
